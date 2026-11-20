@@ -105,9 +105,3 @@ Main visualization topics:
 - `/rigelslam_rot/lidar/mapping/path`
 - `/rigelslam_rot/lidar/mapping/cloud_registered`
 - `/rigelslam_rot/lidar/deskew/cloud_deskewed`
-
-## Calibration and validation status
-
-The calibrated launch uses the user-selected LM-Calibr VERSION 2 equipment parameters, LI-Init LiDAR-to-IMU extrinsic, and `imu_wrt_lidar_lag_s: -0.006992`. These values are in `src/Rot_SLAM/config/mid360_v2_calibration.yaml` and `src/Rot_SLAM/config/mid360_v2_equipment.txt`.
-
-The VERSION 2 motor calibration and LI-Init result have **not been independently verified as a matched calibration pair**. Successful bag playback demonstrates runtime operation; it does not establish calibration correctness, numerical equivalence to ROS 1, or odometry accuracy.
