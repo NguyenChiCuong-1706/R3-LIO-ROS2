@@ -65,7 +65,7 @@ source install/setup.bash
 ros2 launch r3lio_sensor_adapter calibrated_odometry.launch.py
 ```
 
-This launch uses the VERSION 2 motor calibration and the supplied LI-Init extrinsic and IMU time offset. Loop closure feedback is enabled by default. To run the separate configuration without loop closure:
+Loop closure feedback is enabled by default. To run the separate configuration without loop closure:
 
 ```bash
 ros2 launch r3lio_sensor_adapter calibrated_odometry.launch.py loop_closure:=false
