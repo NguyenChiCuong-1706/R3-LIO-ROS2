@@ -1,0 +1,5 @@
+r3lio_sensor_adapter:
+  ros__parameters:
+    motor_zero_rad: 0.0
+    motor_direction: 1
+    motor_time_shift_s: 0.0

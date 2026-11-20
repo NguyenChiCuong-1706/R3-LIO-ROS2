@@ -1,0 +1,5 @@
+ZGSlamRosTest:
+  ros__parameters:
+    rigelslam_rot.zg_fixed_R: [0.0, 0.939693, 0.34202, -1.0, 0.0, 0.0, 0.0, -0.34202, 0.939693]
+    rigelslam_rot.zg_fixed_T_m: [0.122378, 0.033, 0.12356]
+    rigelslam_rot.imu_wrt_lidar_lag_s: 0.0

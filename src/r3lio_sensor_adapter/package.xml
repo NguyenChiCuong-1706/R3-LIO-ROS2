@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>r3lio_sensor_adapter</name>
+  <version>0.0.0</version>
+  <description>External Livox, IMU, and motor message adapter for R3LIO</description>
+  <maintainer email="dev@livoxtech.com">claydergc</maintainer>
+  <license>BSD</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>livox_ros_driver2</depend>
+  <depend>rigelslam_rot</depend>
+  <exec_depend>launch_ros</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

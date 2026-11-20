@@ -1,0 +1,18 @@
+# User-selected LM-Calibr VERSION 2 followed by LI-Init, pending pairing provenance.
+ZGSlamRosTest:
+  ros__parameters:
+    rigelslam_rot.zg_fixed_R: [-0.0018614911406224783, -0.99999826742386577, 0.0,
+                              0.00059373429175967518, -0.0000011052330388947832, -0.99999982373916907,
+                              0.99999809116334026, -0.0018614908125145031, 0.00059373532045132148]
+    rigelslam_rot.zg_fixed_T_m: [-0.0016957977515407005, -0.031351249527115016, 0.097518614347465518]
+    rigelslam_rot.extrinsic_Ril: [0.036100, -0.011517, 0.999282,
+                                 -0.997294, -0.064489, 0.035285,
+                                 0.064036, -0.997852, -0.013814]
+    rigelslam_rot.extrinsic_til: [0.013144, 0.000767, 0.029840]
+    rigelslam_rot.imu_wrt_lidar_lag_s: -0.006992
+
+r3lio_sensor_adapter:
+  ros__parameters:
+    motor_zero_rad: 0.0
+    motor_direction: 1
+    motor_time_shift_s: 0.0
